@@ -1,5 +1,6 @@
 import React from "react";
 
+import {FaTwitter, FaInstagram, FaFacebookF, FaLinkedinIn, FaGithub} from 'react-icons/fa'
 
 const Main = () => {
   return (
@@ -17,7 +18,11 @@ const Main = () => {
            
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full text-gray-300  lg:translate-x-1/2">
-           
+            <FaTwitter className="cursor-pointer hover:scale-110 transition duration-100" size={20} />
+            <FaInstagram className="cursor-pointer hover:scale-110 transition duration-100" size={20} />
+            <FaFacebookF className="cursor-pointer hover:scale-110 transition duration-100" size={20} />
+            <FaLinkedinIn className="cursor-pointer hover:scale-110 transition duration-100" size={20} />
+            <FaGithub className="cursor-pointer hover:scale-110 transition duration-100" size={20} />
           </div>
         </div>
       </div>
