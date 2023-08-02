@@ -8,7 +8,6 @@ import {
 import { BsPerson } from "react-icons/bs";
 import { GrProjects } from "react-icons/gr";
 
-
 const Sidenav = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
@@ -18,7 +17,7 @@ const Sidenav = () => {
   return (
     <div>
       <AiOutlineMenu
-      size={20}
+        size={20}
         onClick={handleNav}
         className="absolute top-4 right-4 z-[99] md:hidden cursor-pointer text-white hover:scale-110 transition duration-100"
       />
@@ -61,30 +60,42 @@ const Sidenav = () => {
           </a>
         </div>
       ) : (
-        ''
+        ""
       )}
-        <div className="md:block hidden fixed top-[25%] z-10">
-            <div className="flex flex-col">
-                <a href="#main" className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
-                    <AiOutlineHome size={20}/>
-                </a>
-                <a href="#work" className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
-                    <GrProjects size={20}/>
-                </a>
-                <a href="#projects" className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
-                    <AiOutlineProject size={20}/>
-                </a>
-                <a href="#main" className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
-                    <BsPerson size={20}/>
-                </a>
-                <a href="#contact" className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
-                    <AiOutlineMail size={20}/>
-                </a>
-            </div>
+      <div className="md:block hidden fixed top-[25%] z-10">
+        <div className="flex flex-col">
+          <a
+            href="#main"
+            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+          >
+            <AiOutlineHome size={20} />
+          </a>
+          <a
+            href="#work"
+            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+          >
+            <GrProjects size={20} />
+          </a>
+          <a
+            href="#projects"
+            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+          >
+            <AiOutlineProject size={20} />
+          </a>
+          <a
+            href="#main"
+            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+          >
+            <BsPerson size={20} />
+          </a>
+          <a
+            href="#contact"
+            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+          >
+            <AiOutlineMail size={20} />
+          </a>
         </div>
-
-
-
+      </div>
     </div>
   );
 };
