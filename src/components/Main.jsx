@@ -23,7 +23,7 @@ const Main = () => {
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
                 "Apasionado por la programación",
                 1000,
-                "",
+                "Desrrollador Junior",
                 1000,
                 "Siempre aprendiendo",
                 1000,
