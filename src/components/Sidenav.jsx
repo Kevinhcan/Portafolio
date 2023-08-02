@@ -7,7 +7,7 @@ import {
 } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
 import { GrProjects } from "react-icons/gr";
-import { FaGithub } from 'react-icons/fa';
+
 
 const Sidenav = () => {
   const [nav, setNav] = useState(false);
