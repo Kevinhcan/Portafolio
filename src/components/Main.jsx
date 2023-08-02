@@ -1,5 +1,5 @@
 import React from "react";
-import { TypeAnimation } from "react-type-animation";
+import { TypeAnimation } from 'react-type-animation';
 import {FaTwitter, FaInstagram, FaFacebookF, FaLinkedinIn, FaGithub} from 'react-icons/fa'
 
 const Main = () => {
