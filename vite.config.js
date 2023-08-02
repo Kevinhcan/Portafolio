@@ -7,7 +7,8 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [
-        
+        'react',
+        'react-dom',
         'react-icons/fa', // Agrega aquí todos los íconos que utilices en tu proyecto
         'react-icons/ai',
         'react-icons/bs',
