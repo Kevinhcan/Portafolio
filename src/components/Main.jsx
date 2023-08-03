@@ -38,27 +38,27 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full text-gray-300 lg:translate-x-1/2 ">
-            <a href="https://instagram.com/kevinhcan?igshid=MzNlNGNkZWQ4Mg==" target="_blank" rel="noopener noreferrer">
+            <a href="https://instagram.com/kevinhcan?igshid=MzNlNGNkZWQ4Mg==" target="_blank" rel="noopener noreferrer" className="hover:text-rose-500 hover:shadow-md hover:bg-black/50 rounded-lg transition duration-100">
               <FaInstagram
-                className="cursor-pointer hover:scale-110 hover:text-rose-500 hover:shadow-md hover:bg-black/50 rounded-lg transition duration-100"
+                className="cursor-pointer hover:scale-110 "
                 size={25}
               />
             </a>
-            <a href="https://www.linkedin.com/in/kevin-garces-martinez-a234a91b4/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/kevin-garces-martinez-a234a91b4/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-800  hover:shadow-md hover:bg-black/50 rounded-md transition duration-100">
               <FaLinkedinIn
-                className="cursor-pointer hover:scale-110 hover:text-blue-800  hover:shadow-md hover:bg-black/50 rounded-md transition duration-100"
+                className="cursor-pointer hover:scale-110 "
                 size={25}
               />
             </a>
-            <a href="https://github.com/Kevinhcan" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Kevinhcan" target="_blank" rel="noopener noreferrer" className="hover:text-orange-700  hover:shadow-md hover:bg-black/50 rounded-full transition duration-100">
               <FaGithub
-                className="cursor-pointer hover:scale-110 hover:text-orange-700  hover:shadow-md hover:bg-black/50 rounded-full transition duration-100"
+                className="cursor-pointer hover:scale-110 "
                 size={25}
               />
             </a>
-            <a href="https://wa.me/573157937521" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/573157937521" target="_blank" rel="noopener noreferrer" className="hover:text-green-600 hover:scale-110  hover:shadow-md hover:bg-black/50 rounded-full">
               <svg
-                className="hover:text-green-600 hover:scale-110  hover:shadow-md hover:bg-black/50 rounded-full "
+                className=" "
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
                 height="25"
