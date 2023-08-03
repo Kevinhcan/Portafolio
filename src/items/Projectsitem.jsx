@@ -1,8 +1,9 @@
 import React from "react";
 
 const Projectsitem = ({ img, title }) => {
+    /* //TODOO Links a los proyectos */
   return (
-    <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-500 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]">
+    <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-500 rounded-xl group hover:bg-gradient-to-t from-indigo-700 via-teal-700 to-neutral-900 hover:scale-110 transition-all duration-300">
       <img src={img} alt="/" className="rounded-xl group-hover:opacity-10" />
       <div className="hidden group-hover:block  absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
         <h3 className="text-2xl font-bold text-white tracking-wider text-center">

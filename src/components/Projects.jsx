@@ -1,5 +1,5 @@
 import React from "react";
-import Projectsitem from "./Projectsitem";
+import Projectsitem from "../items/Projectsitem";
 import AleatorioImg from "../../public/Aleatorio.png";
 import usuariosImg from "../../public/Usuarios.png";
 import pokedexImg from "../../public/Pokedex.png";
@@ -8,7 +8,7 @@ import climaImg from "../../public/Clima.png";
 const Projects = () => {
   return (
     <div id="projects" className="max-w-[1024px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-[#001b5e]">
+      <h1 className="text-4xl font-bold text-center pb-2 text-[#001b5e]">
         Proyectos
       </h1>
       <p className="text-center py-8">
