@@ -3,7 +3,7 @@ import React from "react";
 const Projectsitem = ({ img, title }) => {
     /* //TODOO Links a los proyectos */
   return (
-    <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-500 rounded-xl group hover:bg-gradient-to-t from-indigo-700 via-teal-700 to-neutral-900 hover:scale-110 transition-all duration-300">
+    <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-500 rounded-xl group hover:bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 hover:scale-110 transition-all duration-300">
       <img src={img} alt="/" className="rounded-xl group-hover:opacity-10" />
       <div className="hidden group-hover:block  absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
         <h3 className="text-2xl font-bold text-white tracking-wider text-center">

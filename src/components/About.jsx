@@ -5,6 +5,7 @@ import CSS from "./../../public/Skills/css.png";
 import HTML from "./../../public/Skills/HTML5.png";
 import ReactJS from "./../../public/Skills/reactjs.png";
 import Tailwind from "./../../public/Skills/tailwind.png";
+import GIT from '../../public/Skills/Git.png'
 import Skillsitems from "../items/Skillsitems";
 import Carrousel from "../items/Carrousel";
 
@@ -16,20 +17,20 @@ const images = [
 
 const About = () => {
   return (
-    <div id="about" className=" m-auto md-pl-20 p-4 py-16 ">
+    <div id="about" className=" m-auto md-pl-20 p-4 py-16 text-[#fffdff] ">
      <div className="m-auto md-pl-20 p-4 py-16 max-w-[1024px]">
-     <h1 className="py-4  text-4xl font-bold text-center text-[#001b5e]">
+     <h1 className="py-4  text-4xl font-bold text-center gradient-text">
         About
       </h1>
 
-      <div className="flex justify-center">
+      <div className="flex justify-center ">
         <img
-          className="h-auto w-52 m-auto border-2 border-[#001b5e] rounded-2xl justify-center text-center items-center bg-black"
+          className="h-auto w-52 m-auto border-2 border-[#a31df0] rounded-2xl justify-center text-center items-center bg-black"
           src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
           alt=""
         />
       </div>
-      <div className="py-6">
+      <div className="py-6 text-[#fdfdff] gradient-p">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores
         similique aliquam voluptate tenetur distinctio id esse repellendus sunt
         delectus optio, repellat qui culpa itaque explicabo corporis libero
@@ -37,8 +38,8 @@ const About = () => {
       </div>
       <div className="flex ">
         <div className="w-1/2">
-          <p className="text-2xl font-bold  text-[#001b5e]">Datos Personales</p>
-          <ul className=" py-8">
+          <p className="text-2xl font-bold gradient-text">Datos Personales</p>
+          <ul className="gradient-p py-8">
             <li className="mb-2">
               <span className="font-bold pr-2">Cumpleaños </span> 03-12-1999
             </li>
@@ -55,28 +56,28 @@ const About = () => {
             </li>
             <li className="mb-2">
               <span className="font-bold pr-2">Cargo </span>{" "}
-              <span className="bg-[#001b5e] rounded-md text-white font-bold p-1 px-1.5 pt-0 ">
+              <span className="bg-gradient-to-br from-purple-600 to-blue-500 rounded-md text-white font-bold p-1 px-1.5 pt-0 ">
                 Tecnico de servicios
               </span>
             </li>
           </ul>
         </div>
         <div className="w-1/2 ">
-          <p className="text-2xl font-bold text-[#001b5e] pb-4">Intereses</p>
+          <p className="text-2xl font-bold pb-4 gradient-text">Intereses</p>
           <div className="flex flex-wrap gap-4">
-            <div className="bg-gray-100 hover:bg-[#001b5e] transition duration-300 hover:text-white gap-1 flex-col rounded-lg w-28 h-28 flex items-center  justify-center">
+            <div className="bg-[#1e1e1f] transition duration-300 hover:text-white gap-1 flex-col rounded-lg w-28 h-28 flex items-center  justify-center">
               <FaPlane size={40} />
               Viajar
             </div>
-            <div className="bg-gray-100 hover:bg-[#001b5e] transition duration-300 hover:text-white gap-1 flex-col rounded-lg w-28 h-28 flex items-center justify-center">
+            <div className="bg-[#1e1e1f] transition duration-300 hover:text-white gap-1 flex-col rounded-lg w-28 h-28 flex items-center justify-center">
               <FaCamera size={40} />
               Fotografía
             </div>
-            <div className="bg-gray-100 hover:bg-[#001b5e] transition duration-300 hover:text-white gap-1 flex-col rounded-lg w-28 h-28 flex items-center  justify-center">
+            <div className="bg-[#1e1e1f] transition duration-300 hover:text-white gap-1 flex-col rounded-lg w-28 h-28 flex items-center  justify-center">
               <FaCode size={40} />
               Desarrollo
             </div>
-            <div className="bg-gray-100 hover:bg-[#001b5e] transition duration-300 hover:text-white gap-1 flex-col rounded-lg w-28 h-28 flex items-center justify-center">
+            <div className="bg-[#1e1e1f] transition duration-300 hover:text-white gap-1 flex-col rounded-lg w-28 h-28 flex items-center justify-center">
               <FaHeadphones size={40} />
               Música
             </div>
@@ -85,7 +86,7 @@ const About = () => {
       </div>
      </div>
       <div className="w-full">
-        <h1 className="py-4  text-4xl font-bold text-center text-[#001b5e]">
+        <h1 className="py-4  text-4xl font-bold text-center gradient-text">
           Skills
         </h1>
 
@@ -95,7 +96,7 @@ const About = () => {
            <Skillsitems img={HTML} title="HTML5"/>
            <Skillsitems img={ReactJS} title="ReactJS"/>
            <Skillsitems img={Tailwind} title="Tailwind CSS"/>
-
+           <Skillsitems img={GIT} title="Git"/>
          
            
         </div>

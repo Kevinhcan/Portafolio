@@ -1,8 +1,7 @@
-/* src/index.css */
+
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-
 
 
 * {
@@ -11,11 +10,23 @@
 
 .gradient-text {
    
-    background-image: linear-gradient(to right, rgb(17, 24, 39), rgb(209, 213, 219), rgb(243, 244, 246));
+    background-image: linear-gradient(to left, rgb(253, 186, 116), rgb(109, 40, 217), rgb(56, 189, 248));
     background-clip: text;
-    -webkit-background-clip: text; /* Para navegadores con prefijo webkit */
+    -webkit-background-clip: text; 
     color: transparent;
   }
+
+  html{
+    background-color: rgb(26, 29, 31);
+  }
+
+.gradient-p {
+    
+    background-image: linear-gradient(to top, rgb(6, 182, 212), rgb(45, 212, 191), rgb(37, 99, 235));
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent;
+}
 
   
 

@@ -19,7 +19,7 @@ const Main = () => {
           <h1 className="lg:translate-x-1/4 sm:text-5xl text-4xl font-bold text-gray-300">
             Soy Kevin Garcés
           </h1>
-          <h2 className="lg:pl-24 flex sm:text-3xl text-2xl pt-4 gradient-text">
+          <h2 className="lg:pl-24 flex sm:text-3xl text-2xl pt-4 text-gray-300">
             <TypeAnimation
               sequence={[
                 "Coder",
