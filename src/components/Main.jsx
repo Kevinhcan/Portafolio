@@ -14,12 +14,12 @@ const Main = () => {
         src="https://github.com/Kevinhcan/Portafolio/blob/master/public/Wallpaper.png?raw=true"
         alt=""
       />
-      <div className="w-full h-screen absolute top-0 left-0 bg-black/50">
+      <div className="w-full h-screen absolute top-0 left-0 bg-white/30 dark:bg-black/50">
         <div className="max-w[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
-          <h1 className="lg:translate-x-1/4 sm:text-5xl text-4xl font-bold text-gray-300">
+          <h1 className="lg:translate-x-1/4 sm:text-5xl text-4xl font-bold dark:text-gray-300">
             Soy Kevin Garcés
           </h1>
-          <h2 className="lg:pl-24 flex sm:text-3xl text-2xl pt-4 text-gray-300">
+          <h2 className="lg:pl-24 flex sm:text-3xl text-2xl pt-4 dark:text-gray-300">
             <TypeAnimation
               sequence={[
                 "Coder",
@@ -37,7 +37,7 @@ const Main = () => {
               repeat={Infinity}
             />
           </h2>
-          <div className="flex justify-between pt-6 max-w-[200px] w-full text-gray-300 lg:translate-x-1/2 ">
+          <div className="flex justify-between pt-6 max-w-[200px] w-full dark:text-gray-300 lg:translate-x-1/2 ">
             <a href="https://instagram.com/kevinhcan?igshid=MzNlNGNkZWQ4Mg==" target="_blank" rel="noopener noreferrer" className="hover:text-rose-500 hover:shadow-md hover:bg-black/50 rounded-lg transition duration-100">
               <FaInstagram
                 className="cursor-pointer hover:scale-110 "
