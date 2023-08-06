@@ -11,7 +11,7 @@ const Main = () => {
     <div id="main">
       <img
         className="w-full h-screen object-cover object-left scale-x-[-1]"
-        src="../../public/Wallpaper.png"
+        src="https://github.com/Kevinhcan/Portafolio/blob/master/public/Wallpaper.png?raw=true"
         alt=""
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/30 dark:bg-black/50">
