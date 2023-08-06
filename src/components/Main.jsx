@@ -10,7 +10,7 @@ const Main = () => {
   return (
     <div id="main">
       <img
-        className="w-full h-screen object-cover object-left scale-x-[-1]"
+        className="w-full h-screen object-cover object-center scale-x-[-1] "
         src="https://github.com/Kevinhcan/Portafolio/blob/master/public/Wallpaper.png?raw=true"
         alt=""
       />

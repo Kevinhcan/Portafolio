@@ -2,19 +2,19 @@ import React from "react";
 
 const Workitem = ({ year, title, duration, details }) => {
   return (
-    <ol className="flex flex-col md:flex-row relative border-l text-[#fffdff] border-stone-200">
+    <ol className="flex flex-col md:flex-row relative border-l dark:text-[#fffdff] border-stone-800 dark:border-stone-200">
       <li className="mb-10 ml-4">
-        <div className="absolute w-3 h-3 bg-stone-200 rounded-full mt-1.5 -left-1.5 border-white " />
+        <div className="absolute w-3 h-3 bg-stone-800 dark:bg-stone-200 rounded-full mt-1.5 -left-1.5 border-white " />
         <p className="flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm">
-          <span className="inline-block px-2 py-1 font-semibold text-white bg-gradient-to-br from-purple-600 to-blue-500 rounded-md">
+          <span className="inline-block px-2 py-1 font-semibold dark:text-white bg-gradient-to-br from-purple-600 to-blue-500 rounded-md">
             {year}
           </span>
-          <span className="text-lg font-semibold text[#001b5e]">{title}</span>
-          <span className="my-1 text-sm font-normal leading-none text-stone-400">
+          <span className="text-xl font-semibold text[#001b5e]">{title}</span>
+          <span className="my-1 text-sm font-normal leading-none dark:text-stone-400">
             {duration}
           </span>
         </p>
-        <p className="my-2 text-base font-nomal gradient-p">{details}</p>
+        <p className="my-2 font-nomal bg-black gradient-p text-lg">{details}</p>
       </li>
     </ol>
   );

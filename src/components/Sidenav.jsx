@@ -6,8 +6,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
-import { GrProjects } from "react-icons/gr";
-import { FaBriefcase, FaMoon, FaSun } from "react-icons/fa";
+import { FaBriefcase, FaMoon} from "react-icons/fa";
 
 const Sidenav = ({ changeDarkMode, darkMode }) => {
   const [nav, setNav] = React.useState(false);

@@ -43,13 +43,13 @@ const App = () => {
   }, [darkMode]);
 
   return (
-    <div className=" bg-slate-100 dark:bg-gray-900">
+    <div className=" bg-slate-300 dark:bg-gray-900">
       <Sidenav changeDarkMode={changeDarkMode} darkMode={darkMode} />
       <button
-            className="z-10 md:block hidden fixed  bg-slate-800 items-center justify-center p-3.5 m-2 overflow-hidden font-medium text-gray-900 rounded-full group shadow-lg shadow-gray-700 hover:scale-110 duration-100 dark:bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 text-xl"
+            className="z-10 md:block hidden fixed text-yellow-400 bg-slate-800 items-center justify-center p-3.5 m-2 overflow-hidden font-medium dark:text-gray-100 rounded-full group shadow-lg shadow-gray-700 hover:scale-110 duration-100 dark:bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 text-xl"
             onClick={changeDarkMode}
           >
-            {darkMode ? <FaMoon size={25} /> : "☀️"}
+            {darkMode ? <FaMoon size={25} /> : <FaSun size={25} /> }
           </button>
       
       <Main />

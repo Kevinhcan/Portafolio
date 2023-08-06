@@ -16,7 +16,12 @@
     color: transparent;
   }
 
- 
+ .gradient-p-sun{
+    background-image:linear-gradient(to top, rgb(12, 74, 110), rgb(14, 116, 144), rgb(24, 24, 27));
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent;
+ }
 
 .gradient-p {
     
