@@ -36,8 +36,8 @@ const About = () => {
         delectus optio, repellat qui culpa itaque explicabo corporis libero
         quibusdam cumque iste.
       </div>
-      <div className="flex ">
-        <div className="w-1/2">
+      <div className="flex flex-col md:flex-row ">
+        <div className="w-full md:w-1/2">
           <p className="text-2xl font-bold gradient-text">Datos Personales</p>
           <ul className="gradient-p py-8">
             <li className="mb-2">
@@ -62,7 +62,7 @@ const About = () => {
             </li>
           </ul>
         </div>
-        <div className="w-1/2 ">
+        <div className="w-full md:w-1/2">
           <p className="text-2xl font-bold pb-4 gradient-text">Intereses</p>
           <div className="flex flex-wrap gap-4">
             <div className="bg-[#1e1e1f] transition duration-300 hover:text-white gap-1 flex-col rounded-lg w-28 h-28 flex items-center  justify-center">
