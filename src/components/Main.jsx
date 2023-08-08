@@ -22,7 +22,7 @@ const Main = () => {
           <h2 className="lg:pl-24 flex sm:text-3xl text-2xl pt-4 dark:text-gray-300">
             <TypeAnimation
               sequence={[
-                "Coder",
+                "Desarrollador Front-end",
                 1000,
                 "Apasionado por la programación",
                 1000,
