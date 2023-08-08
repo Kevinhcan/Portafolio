@@ -1,12 +1,12 @@
 import React from "react";
 
-const Workitem = ({ year, title, duration, details }) => {
+const Workitem = ({ year, title, duration, habilitie, habilitie2, habilitie3, habilitie4, habilitie5, darkMode }) => {
   return (
     <ol className="flex flex-col md:flex-row relative border-l dark:text-[#fffdff] border-stone-800 dark:border-stone-200">
       <li className="mb-10 ml-4">
         <div className="absolute w-3 h-3 bg-stone-800 dark:bg-stone-200 rounded-full mt-1.5 -left-1.5 border-white " />
         <p className="flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm">
-          <span className="inline-block px-2 py-1 font-semibold dark:text-white bg-gradient-to-br from-purple-600 to-blue-500 rounded-md">
+          <span className="bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-lime-500 via-teal-600 to-indigo-900 inline-block px-2 py-1 font-semibold text-white dark:bg-gradient-to-br dark:from-purple-600 dark:to-blue-500 rounded-md">
             {year}
           </span>
           <span className="text-xl font-semibold text[#001b5e]">{title}</span>
@@ -14,7 +14,17 @@ const Workitem = ({ year, title, duration, details }) => {
             {duration}
           </span>
         </p>
-        <p className="my-2 font-nomal bg-black gradient-p text-lg">{details}</p>
+        <p className={` ${darkMode ? 'gradient-p' : 'gradient-p-sun'} my-2 font-noma text-lg py-4`}>
+          {habilitie}
+          <br />
+          {habilitie2}
+          <br />
+          {habilitie3}
+          <br />
+          {habilitie4}
+          <br />
+          {habilitie5}
+          </p>
       </li>
     </ol>
   );

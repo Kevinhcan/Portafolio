@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import About from "./components/About";
 import { FaBriefcase, FaMoon, FaSun } from "react-icons/fa";
+import Education from "./components/Education";
 
 const App = () => {
   // Estado para almacenar el modo actual (true: modo oscuro, false: modo claro)
@@ -53,10 +54,11 @@ const App = () => {
           </button>
       
       <Main />
-      <Work />
-      <Projects />
-      <About />
-      <Contact />
+      <About darkMode={darkMode} />
+  {/*     <Education darkMode={darkMode} /> */}
+    {/*   <Work darkMode={darkMode} /> */}
+      <Projects darkMode={darkMode} />
+      <Contact darkMode={darkMode} />
     </div>
   );
 };

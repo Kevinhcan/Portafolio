@@ -5,18 +5,18 @@ import usuariosImg from "../../public/Usuarios.png";
 import pokedexImg from "../../public/Pokedex.png";
 import climaImg from "../../public/Clima.png";
 
-const Projects = () => {
+
+
+const Projects = ({darkMode}) => {
   return (
     <div id="projects" className="max-w-[1024px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center pb-2 gradient-text">
+      <h1 className={` ${darkMode ? 'gradient-text' : 'gradient-text-sun'} text-4xl font-bold text-center pb-2 `}>
         Projects
       </h1>
-      <p className="text-center gradient-p py-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nam atque
-        tenetur corrupti aspernatur, voluptates natus perferendis numquam quos
-        nostrum reprehenderit sint quisquam necessitatibus assumenda obcaecati
-        quam earum quidem dignissimos.
+      <p className={` ${darkMode ? 'gradient-p' : 'gradient-p-sun'} text-lg text-justify py-8`}>
+        En mi paso por Academlo tuve la oportunidad de desarrollar diversos proyectos donde implementé mis conocimientos sobre los distinos frameworks y lenguajes de programación 
       </p>
+      
       <div className="grid sm:grid-cols-2 gap-12">
         <a href="https://amazing-mandazi-b5a11f.netlify.app" target="_blank" rel="noopener noreferrer">
         <Projectsitem img={AleatorioImg} title="Aleatorio App" />
