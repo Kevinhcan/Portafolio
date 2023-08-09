@@ -18,18 +18,18 @@ const Projects = ({darkMode}) => {
       </p>
       
       <div className="grid sm:grid-cols-2 gap-12">
-        <div>
+        <a href="https://amazing-mandazi-b5a11f.netlify.app/">
           <Projectsitem img={AleatorioImg} title="Aleatorio App" />
-        </div>
-        <div>
+        </a>
+        <a href="https://wondrous-truffle-7b72f5.netlify.app/">
           <Projectsitem img={usuariosImg} title="Usuarios App" />
-        </div>
-        <div>
+          </a>
+          <a href="https://thunderous-sopapillas-626440.netlify.app/">
           <Projectsitem img={pokedexImg} title="Pokedex App" />
-        </div>
-        <div>
+          </a>
+        <a href="https://astonishing-kleicha-8335db.netlify.app/">
           <Projectsitem img={climaImg} title="Clima App" />
-        </div>
+          </a>
       </div>
     </div>
   );
