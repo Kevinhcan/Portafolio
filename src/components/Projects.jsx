@@ -18,18 +18,18 @@ const Projects = ({darkMode}) => {
       </p>
       
       <div className="grid sm:grid-cols-2 gap-12">
-        <a href="https://amazing-mandazi-b5a11f.netlify.app" target="_blank" rel="noopener noreferrer">
-        <Projectsitem img={AleatorioImg} title="Aleatorio App" />
-        </a>
-        <a href="https://wondrous-truffle-7b72f5.netlify.app" target="_blank" rel="noopener noreferrer">
-        <Projectsitem img={usuariosImg} title="Usuarios App" />
-        </a>
-        <a href="https://thunderous-sopapillas-626440.netlify.app" target="_blank" rel="noopener noreferrer">
-        <Projectsitem img={pokedexImg} title="Pokedex App" />
-        </a>
-        <a href="https://astonishing-kleicha-8335db.netlify.app" target="_blank" rel="noopener noreferrer">
-        <Projectsitem img={climaImg} title="Clima App" />
-        </a>
+        <div>
+          <Projectsitem img={AleatorioImg} title="Aleatorio App" />
+        </div>
+        <div>
+          <Projectsitem img={usuariosImg} title="Usuarios App" />
+        </div>
+        <div>
+          <Projectsitem img={pokedexImg} title="Pokedex App" />
+        </div>
+        <div>
+          <Projectsitem img={climaImg} title="Clima App" />
+        </div>
       </div>
     </div>
   );
