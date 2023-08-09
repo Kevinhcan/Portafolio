@@ -6,9 +6,9 @@ const data = [
       year: 2021,
       title: "Tecnologo Diseño e integración de automatismos mecatronicos - SENA",
       duration: "Febrero 2019 - Julio 2021",
-      details:"➖ Diseño de interfaces y funcionalidades dinámicas",
-      details2:"➖ Arduino",
-      details3:"➖ C++",
+      details:" Diseño de interfaces y funcionalidades dinámicas",
+      details2:" Arduino",
+      details3:" C++",
      /*    "Mi formación en Diseño e Integración de Automatismos Mecatronicos me ha dotado de una base sólida en la creación y control de sistemas mecatrónicos. Durante mis estudios, adquirí destrezas en la definición y proyección de soluciones automatizadas según requerimientos específicos. Un aspecto destacado de mi educación fue el aprendizaje de la programación con Arduino y C++, lo cual amplió mi comprensión de la programación y su aplicación en proyectos prácticos. Esta habilidad ha resultado esencial en mi enfoque hacia el desarrollo web, donde aplico las bases adquiridas sobre control y lógica en la creación de interfaces y funcionalidades dinámicas. Además, mi perfil de egresado abarca desde diseñador de máquinas y equipos hasta integrador de soluciones automatizadas. Esta versatilidad se traduce en un enfoque fresco y creativo en el diseño de soluciones en el ámbito del desarrollo web. Mi formación sólida y mi enfoque en la innovación me permiten enfrentar desafíos técnicos con confianza y encontrar soluciones efectivas para el mundo digital." */
     },
     {

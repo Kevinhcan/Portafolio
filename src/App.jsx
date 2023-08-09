@@ -5,8 +5,7 @@ import Work from "./components/Work";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import About from "./components/About";
-import { FaBriefcase, FaMoon, FaSun } from "react-icons/fa";
-import Education from "./components/Education";
+import { FaMoon, FaSun } from "react-icons/fa";
 
 const App = () => {
   // Estado para almacenar el modo actual (true: modo oscuro, false: modo claro)
