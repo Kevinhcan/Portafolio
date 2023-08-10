@@ -1,44 +1,62 @@
-
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
-
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 * {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .gradient-text {
-   
-    background-image: linear-gradient(to left, rgb(253, 186, 116), rgb(109, 40, 217), rgb(56, 189, 248));
-    background-clip: text;
-    -webkit-background-clip: text; 
-    color: transparent;
-  }
+  background-image: linear-gradient(
+    to left,
+    rgb(253, 186, 116),
+    rgb(109, 40, 217),
+    rgb(56, 189, 248)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
 
 .gradient-text-sun {
-    
-    background-image: radial-gradient(at 100% 0%, rgb(132, 204, 22), rgb(13, 148, 136), rgb(49, 46, 129));
-    background-clip: text;
-    -webkit-background-clip: text; 
-    color: transparent;
+  background-image: radial-gradient(
+    at 100% 0%,
+    rgb(132, 204, 22),
+    rgb(13, 148, 136),
+    rgb(49, 46, 129)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
- .gradient-p-sun{
-    background-image:linear-gradient(to top, rgb(12, 74, 110), rgb(14, 116, 144), rgb(24, 24, 27));
-    background-clip: text;
-    -webkit-background-clip: text; 
-    color: transparent;
- }
+.gradient-p-sun {
+  background-image: linear-gradient(
+    to top,
+    rgb(12, 74, 110),
+    rgb(14, 116, 144),
+    rgb(24, 24, 27)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
 
 .gradient-p {
-    
-    background-image: linear-gradient(to top, rgb(6, 182, 212), rgb(45, 212, 191), rgb(37, 99, 235));
-    background-clip: text;
-    -webkit-background-clip: text; 
-    color: transparent;
+  background-image: linear-gradient(
+    to top,
+    rgb(6, 182, 212),
+    rgb(45, 212, 191),
+    rgb(37, 99, 235)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
-  
 
-  /* linear-gradient(to right bottom, rgb(30, 64, 175), rgb(109, 40, 217), rgb(31, 41, 55)) Modo oscuro */
+/* Cambiar la forma del cursor */
+
+
+
+/* linear-gradient(to right bottom, rgb(30, 64, 175), rgb(109, 40, 217), rgb(31, 41, 55)) Modo oscuro */
