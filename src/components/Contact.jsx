@@ -2,12 +2,12 @@ import React from "react";
 
 const Contact = ({ darkMode }) => {
   return (
-    <div className="p-4 pt-16 mx-10 mx:m-0">
+    <div className="px-8 pt-16 mx-10 mx:m-0">
       <div
       id="contact"
       className={` ${
         darkMode ? "gradient-p" : "text-black"
-      } max-w-[1024px] m-auto md:pl-18 p-4 py-16 font-bold `}
+      } max-w-[1024px] m-auto md:pl-18  py-4 font-bold `}
     >
       <h1
         className={` ${
