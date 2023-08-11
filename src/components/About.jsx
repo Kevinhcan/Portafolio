@@ -11,7 +11,7 @@ import Skillsitems from "../items/Skillsitems";
 
 const About = ({darkMode}) => {
   return (
-    <div id="about" className="p-4 py-16 md:pl-20 md:m-0 text-[#fffdff]">
+    <div id="about" className="p-4 py-16 mx-10 mx:m-0  text-[#fffdff]">
      <div className="m-auto p-4 py-16 max-w-[1024px]">
      <h1 className={` ${darkMode ? 'gradient-text' : 'gradient-text-sun'} py-4 text-4xl font-bold text-center`}>
         About

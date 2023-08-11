@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import About from "./components/About";
 import { FaMoon, FaSun } from "react-icons/fa";
+import Makeit from "./components/Makeit";
 
 const App = () => {
   // Estado para almacenar el modo actual (true: modo oscuro, false: modo claro)
@@ -58,6 +59,7 @@ const App = () => {
     {/*   <Work darkMode={darkMode} /> */}
       <Projects darkMode={darkMode} />
       <Contact darkMode={darkMode} />
+      <Makeit />
     </div>
   );
 };
