@@ -20,7 +20,7 @@ const About = ({darkMode}) => {
       <div className="flex justify-center ">
         <img
           className="shadow-xl shadow-black h-auto w-52 m-auto border-2 border-[#2d8a54] dark:border-[#a31df0] rounded-2xl justify-center text-center items-center bg-black"
-          src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+          src= "../../public/Presentacion2.png" /* "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" */
           alt=""
         />
       </div>
