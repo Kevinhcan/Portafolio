@@ -9,7 +9,7 @@ import climaImg from "../../public/Clima.png";
 
 const Projects = ({darkMode}) => {
   return (
-    <div className="px-8 mx-10 mx:m-0 text-[#fffdff]">
+    <div className="px-8 md:mx-10 text-[#fffdff]">
       <div id="projects" className="m-auto max-w-[1024px]">
       <h1 className={` ${darkMode ? 'gradient-text' : 'gradient-text-sun'} text-4xl font-bold text-center pb-2 `}>
         Projects

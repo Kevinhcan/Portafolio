@@ -11,8 +11,8 @@ import Skillsitems from "../items/Skillsitems";
 
 const About = ({darkMode}) => {
   return (
-    <div id="about" className="px-8 mx-10 mx:m-0  text-[#fffdff]">
-     <div className="m-auto pt-20 max-w-[1024px]">
+    <div id="about" className="px-8 mx-0 md:m-10  text-[#fffdff]">
+     <div className="m-auto py-20 max-w-[1024px]">
      <h1 className={` ${darkMode ? 'gradient-text' : 'gradient-text-sun'} py-4 text-4xl font-bold text-center`}>
         About
       </h1>
@@ -45,7 +45,7 @@ const About = ({darkMode}) => {
               <span className="font-bold pr-2">Residencia </span> Bogotá,
               Colombia
             </li>
-            <li className="mb-2">
+            <li className="mb-2 ">
               <span className="font-bold pr-2">Cargo Actual</span>{" "}
               <span className=" bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-lime-500 via-teal-600 to-indigo-900 dark:bg-gradient-to-br dark:from-purple-600 dark:to-blue-500 rounded-md text-white font-bold p-1 px-1.5 pt-0 ">
                 Tecnico de servicios
@@ -81,7 +81,7 @@ const About = ({darkMode}) => {
           Skills
         </h1>
 
-        <div className="flex flex-wrap gap-16 m-20 justify-center">
+        <div className="flex flex-wrap gap-8 md:gap-12 my-20 -mx-6 justify-center">
            <Skillsitems img={JS} title="JavaScript"/>
            <Skillsitems img={CSS} title="CSS"/>
            <Skillsitems img={HTML} title="HTML5"/>

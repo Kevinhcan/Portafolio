@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = ({ darkMode }) => {
   return (
-    <div className="px-8 pt-16 mx-10 mx:m-0">
+    <div className="px-8 pt-16 md:mx-10 ">
       <div
       id="contact"
       className={` ${
