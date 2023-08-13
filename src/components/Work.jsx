@@ -1,6 +1,6 @@
 import React from "react";
 import Workitem from "../items/Workitem";
-import App from "../App";
+
 
 
 const data = [

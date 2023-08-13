@@ -55,8 +55,7 @@ const App = () => {
       
       <Main />
       <About darkMode={darkMode} />
-  {/*     <Education darkMode={darkMode} /> */}
-    {/*   <Work darkMode={darkMode} /> */}
+
       <Projects darkMode={darkMode} />
       <Contact darkMode={darkMode} />
       <Makeit />
