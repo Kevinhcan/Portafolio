@@ -6,7 +6,7 @@ import {
   FaGithub,
 } from "react-icons/fa";
 
-const Main = () => {
+const Main = ({ t, i18n }) => {
   return (
     <div id="main">
       <img
@@ -17,18 +17,18 @@ const Main = () => {
       <div className="w-full h-screen absolute top-0 left-0 bg-white/30 dark:bg-black/50">
         <div className="max-w[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
           <h1 className="lg:translate-x-1/4 sm:text-5xl text-4xl font-bold dark:text-gray-300">
-            Soy Kevin Garcés
+            {t("main.name")}
           </h1>
           <h2 className="lg:pl-24 flex sm:text-3xl text-2xl pt-4 dark:text-gray-300">
             <TypeAnimation
               sequence={[
-                "Desarrollador Front-end",
+                t('main.1'),
                 1000,
-                "Apasionado por la programación",
+                t('main.2'),
                 1000,
-                "Desrrollador Junior",
+                t('main.3'),
                 1000,
-                "Siempre aprendiendo",
+                t('main.4'),
                 1000,
               ]}
               wrapper="span"

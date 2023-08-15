@@ -1,0 +1,56 @@
+{
+    "sidenav":{
+        "Home": "Home",
+        "Resume": "Resume",
+        "Projects":"Projects",
+        "Contact" : "Contact"
+    },
+
+    "main":{
+        "name":"I'm Kevin Garcés",
+        "1":"Front-end Developer",
+        "2":"Love for code",
+        "3":"Junior Developer",
+        "4":"Always learning"
+    },
+    
+ "about":{
+    "about":"About",
+    "talk_about_me":"I discovered that I am passionate about programming and web development, so I made the important decision to fully enter this world where my purpose is to turn web development into my profession and acquire new knowledge.",
+    "personal_data":"Personal information",
+    "birthday":"Birthday",
+    "phone":"Phone",
+    "email":"Email",
+    "from":"Living",
+    "job":"Current job",
+    "service_technician":"Industrial instrumentalist",
+    "hobbies":"Hobbies",
+    "travel":"Travel",
+    "photography":"Photography",
+    "code":"Code",
+    "music":"Music",
+    "skills":"Skills"
+},
+"projects":{
+    "projects":"Projects",
+    "text":"During my time at Academlo I had the opportunity to develop various projects where I implemented my knowledge of different frameworks and programming languages.",
+    "aleatorio":"Application that randomly changes an image and a phrase along with its respective author",
+    "users":"Application that registers a user with personal information, password and a photograph",
+    "pokedex":"A pokedex which was made with the famous pokeapi from which you can see the different types of pokemon that exist to date",
+    "weather":"An application that asks you for permission to access your location and based on it gives you weather information"
+},
+
+"contact":{
+    "contact":"Contact",    
+    "name":"Name",    
+    "phone":"Phone",    
+    "email":"Email",    
+    "subject":"Subject",    
+    "message":"Message",    
+    "send":"Send Message"    
+},
+
+"footer":{
+    "footer":"Made with ❤️ by Kevin"
+}
+}

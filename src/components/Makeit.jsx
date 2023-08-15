@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Makeit = () => {
+const Makeit = ({ t, i18n }) => {
   return (
     <div className='max-w-full  pr-3 pb-4 font-bold flex justify-center'>
       <footer className='text-black dark:text-white'>
-        Made with ❤️ by Kevin
+        {t("footer.footer")}
       </footer>
     </div>
   )

@@ -1,0 +1,54 @@
+{"sidenav":{
+    "Home": "Inicio",
+    "Resume": "Sobre mí",
+    "Projects":"Proyectos",
+    "Contact" : "Contactame"
+},
+
+"main":{
+    "name":"Soy Kevin Garcés",
+    "1":"Desarrollador Front-end",
+    "2":"Apasionado por la programación",
+    "3":"Desrrollador Junior",
+    "4":"Siempre aprendiendo"
+},
+
+ "about":{
+    "about":"Sobre mí",
+    "talk_about_me":"Descubrí que me apasiona la programación y el desarrollo web por lo que tomé la importante desición de adentrarme de lleno en este mundo donde mi proposito es convertir el desarrollo web en mi profesión y adquirir nuevos conocimientos",
+    "personal_data":"Información personal",
+    "birthday":"Cumpleaños",
+    "phone":"Teléfono",
+    "email":"Correo",
+    "from":"Residencia",
+    "job":"Cargo Actual",
+    "service_technician":"Instrumentista industrial",
+    "hobbies":"Intereses",
+    "travel":"Viajar",
+    "photography":"Fotografía",
+    "code":"Desarrollo",
+    "music":"Música",
+    "skills":"Habilidades"
+},
+"projects":{
+    "projects":"Proyectos",
+    "text":"Durante mi paso por Academlo tuve la oportunidad de desarrollar varios proyectos donde implementé mis conocimientos de diferentes frameworks y lenguajes de programación.",
+    "aleatorio":"Aplicación que registra a un usuario con datos personales, contraseña y una fotografía",
+    "users":"Application that registers a user with personal information, password and a photograph",
+    "pokedex":"Una pokedex la cual fue hecha con la famosa pokeapi en la cual se pueden ver los diferentes tipos de pokemon que existen hasta la fecha",
+    "weather":"Una aplicación que te solicita permiso para acceder a tu ubicación y en base a ésta te da información del clima"
+},
+"contact":{
+    "contact":"Contactame",    
+    "name":"Tu nombre",    
+    "phone":"Tu telefono",    
+    "email":"Tu correo",    
+    "subject":"Asunto",    
+    "message":"Mensaje",    
+    "send":"Enviar mensaje"    
+},
+
+"footer":{
+    "footer":"Hecho con ❤️ por Kevin"
+}
+}

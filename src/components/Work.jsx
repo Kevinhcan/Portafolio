@@ -26,7 +26,7 @@ const data = [
   },
 ];
 
-const Work = ({darkMode}) => {
+const Work = ({darkMode, i18n}) => {
   return (
     <div id="work" className="max-w-[1024px] m-auto md:pl-20 p-4 py-16 ">
       

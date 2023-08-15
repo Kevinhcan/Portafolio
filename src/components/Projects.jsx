@@ -7,29 +7,29 @@ import climaImg from "../../public/Clima.png";
 
 
 
-const Projects = ({darkMode}) => {
+const Projects = ({darkMode, t, i18n}) => {
   return (
     <div className="px-8 md:mx-10 text-[#fffdff]">
       <div id="projects" className="m-auto max-w-[1024px]">
       <h1 className={` ${darkMode ? 'gradient-text' : 'gradient-text-sun'} text-4xl font-bold text-center pb-2 `}>
-        Projects
+        {t("projects.projects")}
       </h1>
       <p className={` ${darkMode ? 'gradient-p' : 'gradient-p-sun'} text-lg text-justify py-8`}>
-        En mi paso por Academlo tuve la oportunidad de desarrollar diversos proyectos donde implementé mis conocimientos sobre los distinos frameworks y lenguajes de programación 
+      {t("projects.text")}
       </p>
       
       <div className="grid sm:grid-cols-2 gap-12">
         <a href="https://amazing-mandazi-b5a11f.netlify.app/">
-          <Projectsitem img={AleatorioImg} title="Aleatorio App" />
+          <Projectsitem img={AleatorioImg} title={t("projects.aleatorio")} />
         </a>
         <a href="https://wondrous-truffle-7b72f5.netlify.app/">
-          <Projectsitem img={usuariosImg} title="Usuarios App" />
+          <Projectsitem img={usuariosImg} title={t("projects.users")} />
           </a>
           <a href="https://thunderous-sopapillas-626440.netlify.app/">
-          <Projectsitem img={pokedexImg} title="Pokedex App" />
+          <Projectsitem img={pokedexImg} title={t("projects.pokedex")} />
           </a>
         <a href="https://astonishing-kleicha-8335db.netlify.app/">
-          <Projectsitem img={climaImg} title="Clima App" />
+          <Projectsitem img={climaImg} title={t("projects.weather")} />
           </a>
       </div>
     </div>
