@@ -23,6 +23,8 @@ const App = () => {
     newDarkMode
       ? (localStorage.theme = "dark")
       : (localStorage.theme = "light");
+
+      
   };
 
   // Escuchar cambios en las preferencias de color del sistema
@@ -80,7 +82,7 @@ const App = () => {
           >
                {darkMode ? <FaMoon size={25} /> : <FaSun size={25} />}
           </button>
-          <button onClick={toggleLanguage} className=" font-semibold dark:text-gray-200 text-gray-900 text-lg fixed z-10 p-5 translate-x-[70%]">EN/ES</button>
+          <button onClick={toggleLanguage} className=" font-semibold dark:text-gray-200 text-gray-900 text-lg fixed z-10 p-5 md:translate-x-[70%]">EN/ES</button>
       <Main t={t} i18n={i18n} />
       <About darkMode={darkMode} i18n={i18n} t={t} />
       {/*     <Education darkMode={darkMode} /> */}
