@@ -86,7 +86,7 @@ const App = () => {
       <Main t={t} i18n={i18n} />
       <About darkMode={darkMode} i18n={i18n} t={t} />
       {/*     <Education darkMode={darkMode} /> */}
-      {/*   <Work darkMode={darkMode} /> */}
+      
       <Projects darkMode={darkMode} i18n={i18n} t={t} />
       <Contact darkMode={darkMode} i18n={i18n} t={t} />
       <Makeit t={t} i18n={i18n} />
